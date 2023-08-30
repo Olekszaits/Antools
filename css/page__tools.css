@@ -1,0 +1,188 @@
+.page__tools {
+	margin-bottom: 200px;
+}
+
+.tools-bloc {
+}
+
+.tools-bloc__container {
+}
+
+.tools-bloc__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.tools-bloc__title {
+}
+
+.title_s48 {
+	color: rgba(255, 255, 255, 0.90);
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 70px;
+	max-width: 600px;
+	&:not(:last-child) {
+		margin-bottom: 21px;
+	}
+}
+
+.text_s18 {
+	margin-left: -3px;
+	max-width: 400px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	&:not(:last-child) {
+		margin-bottom: 111px;
+	}
+}
+
+.tools-bloc__steps {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 94px;
+}
+
+.bloc-steps {
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 94px;
+}
+
+.steps__two{
+	margin-bottom: 0;
+}
+
+.bloc-steps__item {
+	display: flex;
+	flex-direction: column;
+	border-radius: 15px;
+	padding: 32px 33px 33px 33px;
+	max-width: 392px;
+	@media (any-hover: hover) {
+		&:hover{
+			background-color: rgba(40, 48, 54, 0.60);
+			position: relative;
+			top: -20px;
+		}
+	}
+}
+
+.bloc-steps__header {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 30px;
+}
+
+.bloc-steps__logo {
+}
+
+.bloc-steps__text {
+	text-align: left;
+}
+
+.bloc-steps__title {
+	color: rgba(255, 255, 255, 0.78);
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 3px;
+}
+
+.bloc-steps__desc {
+	color: rgba(255, 165, 55, 0.55);
+	font-size: 18px;
+}
+
+.bloc-steps__body {
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+	margin-bottom: 28px;
+}
+
+.bloc-steps__excerpt {
+}
+
+.bloc-steps__footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bloc-steps__icon {
+	display: flex;
+	gap: 11px;
+}
+
+.steps-icon{
+	padding: 7px;
+	border-radius: 8px;
+	color: white;
+	@media (any-hover: hover) {
+		&:hover{
+			background-color: #283036;
+			color: #FD3B41;
+		}
+	}
+}
+
+.bloc-steps__actions {
+}
+
+.bloc-steps__button {
+	width: 106px;
+	height: 42px;
+	flex-shrink: 0;
+	border-radius: 8px;
+	background: #FF6E30;
+	color: rgba(255, 255, 255, 0.55);
+	font-size: 16px;
+	font-weight: 600;
+	padding: 9px 35px;
+	transition: all 0.3s ease 0s;
+	border: 1px solid rgba(0, 0, 0, 0);
+	&.bloc-steps_border{
+		background-color: transparent;
+			@media (any-hover: hover) {
+				&:hover{
+					background-color: #ff4d00;
+				}
+			}
+	}
+}
+
+.button_border {
+}
+
+.tools-bloc__actions {
+}
+
+.tools-bloc__btn {
+}
+
+.btn {
+	width: 184px;
+	height: 62px;
+	flex-shrink: 0;
+	border-radius: 8px;
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.10);
+	color: #FF6E30;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 12px 28px;
+	transition: all 0.3s ease 0s;
+		@media (any-hover: hover) {
+			&:hover{
+				background-color: #ff4d00;
+				color: #FDF5FF;
+			}
+		}
+}

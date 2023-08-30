@@ -1,0 +1,154 @@
+.page__newtools {
+	margin-bottom: 142px;
+
+}
+.newtools-bloc {
+}
+.newtools-bloc__container {
+}
+.newtools-bloc__content {
+	display: flex;
+	justify-content: space-between;
+}
+.newtools-bloc__info {
+}
+.newtools-bloc__title {
+	color: rgba(255, 255, 255, 0.90);
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 70px;
+	max-width: 600px;
+	&:not(:last-child) {
+		margin-bottom: 26px;
+	}
+}
+
+.newtools-bloc__text {
+	max-width: 400px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 500;
+	&:not(:last-child) {
+		margin-bottom: 62px;
+	}
+}
+.newtools-bloc__button {
+	font-size: 18px;
+	width: 198px;
+	height: 58px;
+}
+.button {
+}
+
+
+
+
+
+
+
+.newtools-bloc__steps {
+	display: flex;
+	flex-direction: column;
+	margin: 7px 0 50px 0;
+}
+
+.newbloc-steps {
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 45px;
+	margin-top: -1px;
+}
+.newbloc-steps__item {
+	display: flex;
+	flex-direction: column;
+	border-radius: 15px;
+	padding: 28px 21px 28px 22px;
+	max-width: 288px;
+	@media (any-hover: hover) {
+		&:hover{
+			background-color: rgba(40, 48, 54, 0.60);
+			position: relative;
+			top: -20px;
+		}
+	}
+}
+.newbloc-steps__header {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 29px;
+}
+.newbloc-steps__logo {
+
+}
+.newbloc-steps__text {
+	text-align: left;
+}
+.newbloc-steps__title {
+	color: rgba(255, 255, 255, 0.78);
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 3px;
+}
+.newbloc-steps__desc {
+	color: rgba(255, 165, 55, 0.55);
+	font-size: 18px;
+}
+.newbloc-steps__body {
+	line-height: 30px;
+	text-align: left;
+	margin-bottom: 29px;
+}
+.newbloc-steps__excerpt {
+}
+.newbloc-steps__footer {
+	display: flex;
+	justify-content: space-between;
+}
+.newbloc-steps__icon {
+	display: flex;
+	gap: 11px;
+}
+.newsteps-icon {
+	padding: 7px;
+	border-radius: 8px;
+	color: white;
+	@media (any-hover: hover) {
+		&:hover{
+			background-color: #283036;
+			color: #FD3B41;
+		}
+	}
+}
+.newbloc-steps__actions {
+}
+.newbloc-steps__button {
+	width: 106px;
+	height: 42px;
+	flex-shrink: 0;
+	border-radius: 8px;
+	background: #FF6E30;
+	color: rgba(255, 255, 255, 0.55);
+	font-size: 16px;
+	font-weight: 600;
+	padding: 9px 35px;
+	transition: all 0.3s ease 0s;
+	border: 1px solid rgba(0, 0, 0, 0);
+	&.newbloc-steps_border{
+		background-color: transparent;
+			@media (any-hover: hover) {
+				&:hover{
+					background-color: #ff4d00;
+				}
+			}
+	}
+}
+.newbloc-steps_border {
+}
+.steps__two {
+	margin-bottom: 0;
+
+}
