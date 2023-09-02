@@ -39,20 +39,42 @@
 	gap: 57px;
 	align-items: center;
 }
-.portfolio__image {
+.portfolio__ava {
+	position: relative;
+}
+.portfolio__description {
+}
+.description__bloc {
+	position: absolute;
+	bottom:28px;
+	right: 3px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 22px 16px 23px;
+	width: 265px;
+	height: 91px;
+	border-radius: 8px;
+	background: rgba(40, 48, 54, 0.20);
+	background: linear-gradient(#FFFFFF1A, #FFFFFF00);
+	backdrop-filter: blur(25px);
+	gap: 2px;
+}
+.description-bloc__name {
+	color: rgba(255, 253, 253, 0.78);
+	font-size: 26px;
+	font-weight: 500;
+	letter-spacing: 0.39px;
+}
+.description-bloc__profession {
+	font-size: 16px;
 }
 .portfolio__info {
-	max-width: 460px;
 	color: rgba(255, 255, 255, 0.78);
 	font-family: Roboto;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 400;
 	line-height: 30px;
 	letter-spacing: 0.21px;
 	margin-top: -55px;
 	position: relative;
-
 }
 .portfolio__arrow_right {
 	margin-left: 23px;

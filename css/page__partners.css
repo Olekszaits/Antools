@@ -41,12 +41,3 @@
 .partners-bloc__item:nth-child(4){
 	margin: 4px 0 0 0;
 }
-
-.partners-bloc__bg{
-width: 159px;
-height: 159px;
-flex-shrink: 0;
-fill: rgba(255, 72, 66, 0.40);
-filter: blur(50px);
-color: #FF484266;
-}
